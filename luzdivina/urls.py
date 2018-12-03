@@ -25,4 +25,4 @@ urlpatterns = [
 #personalizacion de los titulos de administrador
 admin.site.site_header = "Administración de Parroquia"
 admin.site.title = "Sitio de Administración de Parroquia Luz Divina"
-admin.site.index_title = "Luz Divina"
+admin.site.index_title = "lux de la legion de acero"
