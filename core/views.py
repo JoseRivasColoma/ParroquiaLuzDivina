@@ -79,7 +79,7 @@ def IngresoPersonas(request):
         
         
     return render (request, 'core/ingreso_personas.html',variables)
-    
+ 
 def ModificacionPersonas(request, id):
     persona =Persona.objects.get(id=id)
     tipos_persona = TipoPersona.objects.all()
